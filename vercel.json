@@ -1,6 +1,5 @@
 {
   "redirects": [
-    { "source": "/index.html", "destination": "/index", "permanent": true },
     { "source": "/project.html", "destination": "/project", "permanent": true },
     { "source": "/skills.html", "destination": "/skills", "permanent": true },
     { "source": "/about.html", "destination": "/about", "permanent": true }
