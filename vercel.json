@@ -1,9 +1,14 @@
 {
-    "rewrites": [
-      { "source": "/index", "destination": "/index.html" },
-      { "source": "/project", "destination": "/project.html" },
-      { "source": "/skills", "destination": "/skills.html" },
-      { "source": "/about", "destination": "/about.html" }
-    ]
-  }
-  
+  "redirects": [
+    { "source": "/index.html", "destination": "/index", "permanent": true },
+    { "source": "/project.html", "destination": "/project", "permanent": true },
+    { "source": "/skills.html", "destination": "/skills", "permanent": true },
+    { "source": "/about.html", "destination": "/about", "permanent": true }
+  ],
+  "rewrites": [
+    { "source": "/index.html", "destination": "/index", "permanent": true },
+    { "source": "/project", "destination": "/project.html" },
+    { "source": "/skills", "destination": "/skills.html" },
+    { "source": "/about", "destination": "/about.html" }
+  ]
+}
